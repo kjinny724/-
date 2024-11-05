@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+#imageContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+img {
+    position: absolute;
+    transition: transform 0.5s ease;  /* Optional: smooth transition for scale */
+}
